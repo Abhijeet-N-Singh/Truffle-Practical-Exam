@@ -1,0 +1,63 @@
+1) What is Truffle?
+Answer  -  Truffle Suite is a development enviornment, forTesting framework and asset pipeline for   Ethereum Blockchain, it used to develop DApps (Decentralized Applications).
+Truffle is a one-stop solution for building DApps:
+--> Compiling Contracts
+--> Deploying Contracts
+--> Injecting the conntracts into a web app
+--> Creating front-end for DApps and Testing.
+Truffle has three components
+Truffle: for compiling smart contract by code -- truffle compile, but first you need to set up npm on your computer, and then for install,  npm install -g truffle 
+Ganache: it is a personal Ethereum Blockchain used to test smart contracts where you can deploy contracts and develop applications, run tests and perform other tasks without any cost.
+Drizzle : it is a collection of libraries used to create easy and better front-end for Ethereum DApps.
+
+2) What is Ganache?
+Answer - :Ganache is a tool to set up your own local Ethereum Blockchain that you  can use to deploy and test your smart contract or DApps before launching them on authentic Blockchain.
+Ganache allows you to set up local Ethereum Blockchain to test your DApps in a safe enviornment.
+Ganache enables developers to avoid paying unnecessary gas fees during the developing process.
+ Ganache helps you in setting up a personal Ethereum Blockchain used to test smart contracts where you can deploy contracts and develop applications, run tests and perform other tasks without any cost on a local network.
+Ganache can help developers save both money and time.
+
+3) Demonstrate the installation process of Truffle suite and display
+the current version of Truffle installed in your computer.
+Answer - to install Truffle suite first we need to open command prompt.
+next we run the command, npm install -g truffle
+ 
+
+-g refers that we are installing that package globally .
+before running the command we check the node is installed or not by running the command
+node version.
+ 
+To check whether Truffle Package is installed , we need to run command:
+truffle version
+ 
+Successfully installed truffle package. v5.10.2 
+
+
+4) Demonstrate the process of unboxing metacoin project and
+explore the project structure by explaining the items briefly.
+Answer - we can create a bare project template , but for making the example applications and project we use Truffle boxes. We use Metacoin box, which creates a token that can be transferred between accounts.
+Step 1
+Creating a new directory for your Truffle project :
+mkdir Metacoin
+cd Metacoin
+ 
+
+Step 2
+Download "Unbox" the Metacoin box by commands:
+truffle unbox metacoin
+ 
+
+with no smart contract included we need:
+truffle init
+ 
+
+Step 3
+Once the operation of downloading the truffle project metacoin is finished, we will have a project structure with the following items:
+Metacoin / 
+  contracts/  -->It is a directory for solidity contracts.
+migrations/ --> Directory for scriptable deployment files.
+test/ --> Directory for test files for testing our application and contrats.
+ 
+
+ 
+
